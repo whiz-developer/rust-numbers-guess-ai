@@ -1,0 +1,10 @@
+[package]
+name = "rust-number-ai"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.25.6"
+rand = "0.9.1"
+serde_json = "1.0.140"
+serde = { version = "1.0.219", features = ["derive"] }
